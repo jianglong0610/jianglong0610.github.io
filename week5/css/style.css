@@ -36,29 +36,46 @@ h1{
   color:blueviolet;
   text-decoration: underline;
 }
-/* Row */
+
 .row {
   display: flex;
-  justify-content: center;
+  
 }
 
-/* Column */
 .column {
   width: 25%;
-  margin-left: 25px;
-  margin-right: 25px; 
 }
 
 #column1 {
-  width: 50%;
+  width: 100%;
+}
+@media screen and (min-width: 800px) {
+  .column {
+	width: 33.33%;
+  }
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .column {
+	width: 50%;
+  }
+  #column1 {
+	width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .column {
 	width: 100%;
   }
+  #column1 {
+	width: 100%;
+  }
 }
+
 .footer{
   background-color: #F1F1F1;
   display: flex;
