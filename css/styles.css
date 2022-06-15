@@ -11408,6 +11408,8 @@ p.lead {
 }
 
 section.resume-section {
+  background-image: url(../week5/image/background\ image.png);
+  background-size: cover;
   display: flex;
   align-items: center;
   padding-left: 1rem;
