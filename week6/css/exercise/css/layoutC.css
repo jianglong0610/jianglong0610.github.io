@@ -1,0 +1,46 @@
+.item1 { grid-area: logo; }
+.item2 { grid-area: phone; }
+.item3 { grid-area: menu; }
+.item4 { grid-area: slideshows; }
+.item5 { grid-area: textcontent; }
+.item6 { grid-area: sidebar; }
+.item7{ grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'logo logo 1 phone'
+    'logo logo menu menu'
+    'slideshows slideshows slideshows slideshows'
+    'textcontent textcontent textcontent sidebar'
+    'footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1{
+    height: 100px;
+}
+
+.item3{
+    height: 25px;
+}
+
+.item4{
+    height: 120px;
+}
+.item5{
+    height: 200px;
+}
+
+.item7{
+    height: 70px;
+}

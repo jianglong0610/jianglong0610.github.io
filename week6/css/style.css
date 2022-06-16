@@ -1,0 +1,103 @@
+.left {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    background-color: rgb(240, 14, 14);
+  }
+  
+.right a {
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.right a:hover {
+    background-color: #ddd;
+    color:blueviolet;
+    text-decoration: underline;
+  }
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.relative{
+    
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 600px;
+    width: 100%;
+    text-align: center;
+    font-size: 18p;
+}
+
+.logo p{
+    color: azure;
+}
+
+.logo1{
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18p;
+}
+
+.logo1 p{
+    color:azure;
+}
+
+.bottomright{
+    position: fixed;
+    bottom: 5px;
+    right: 16px;
+    font-size: 18px;
+    border: white dashed 6px;
+}
+
+.bottomright p,h3{
+    color: azure;
+}
+
+.bottomleft{
+    display: flex;
+    position: fixed;
+    bottom: 5px;
+    left: 16px;
+    font-size: 18px;
+    border: white dashed 6px;
+}
+
+.bottomleft p{
+    color: azure;
+}
+
+.logo2 {
+    color: beige;
+    display: flex;
+    font-size:xx-large;
+}
+
+.logo2 a:hover {
+    background-color: #ddd;
+    color:blueviolet;
+    text-decoration: underline;
+  }
