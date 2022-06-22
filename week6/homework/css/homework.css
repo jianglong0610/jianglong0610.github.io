@@ -55,7 +55,7 @@
     grid-template-areas:
         'marketing  menu'
         'socialmedia  background1';
-    background-image: url(../homework/image/Bg\ Shape@2x.png);
+    background-image: url(../image/Bg\ Shape@2x.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 660px;
@@ -91,7 +91,7 @@
 
 #menu a {
     font-size: 15px;
-    color: blue;
+    color: white;
     text-decoration: none;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .button {
-    background-image: url(../homework/image/Rectangle\ 8@2x.png);
+    background-image: url(../image/Rectangle\ 8@2x.png);
     background-repeat: no-repeat;
     color: white;
     width: 220px;
@@ -217,7 +217,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    left: 710px;
+    left: 910px;
     top: 1150px;
     width: 500px;
 }
@@ -338,7 +338,7 @@
     text-align: center;
 }
 
-#package1 {
+.package2 {
     margin-top: 20px;
     margin-left: 20px;
     width: 350px;
@@ -350,7 +350,7 @@
     text-align: center;
 }
 
-#package1 h2 {
+.package2 h2 {
     font-size: 50px;
     margin-top: 40px;
 }
@@ -365,7 +365,7 @@
 
 }
 
-#package1 button {
+.package2 button {
     margin-top: 80px;
     width: 100px;
     height: 30px;
@@ -380,7 +380,6 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-
 }
 
 .package1 h2 {
@@ -558,7 +557,7 @@
     padding: 20px;
 }
 
-.hour p{
+.hour p {
     margin-top: 10px;
     font-size: 20px;
 }
@@ -590,3 +589,68 @@
 .contact h4 {
     color: white;
 }
+
+@media only screen and (max-width: 900px) {
+    .pricing {
+        height: 100%;
+        width: 100%;
+    }
+    .package{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer1{
+        width: 100%;
+        display: none;
+    }
+}
+
+  @media screen and (max-width: 900px) {
+    #grid1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-position: top;
+    }
+    #marketing{
+        position: relative;
+        right: 300px;
+    }
+    #menu{
+        position: relative;
+        left: 150px;
+    }
+    .mouse{
+        display: none;
+    }
+    #grid2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #biography{
+        display:none;
+    }
+    #biographybtn{
+        display:none;
+    }
+    #grid3{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    #content{
+        text-align: center;
+        margin-left: 250px;
+    }
+    .service{
+        display: flex;
+        justify-content: center;
+        margin-left: 250px;
+  }
+  }
