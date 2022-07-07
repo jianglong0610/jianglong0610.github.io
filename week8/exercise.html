@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>exercise week8</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form name="myForm" action="thankyou.html">
+        <fieldset>
+            <legend>Farmer Registration Form</legend>
+            Name:<br>
+            <input type="text" name="firstname" placeholder="First" required>
+            <input type="text" name="lastname" placeholder="Last" required><br>
+            <div class="box">
+                <div>Email:
+                    <input type="text" name="email" required>
+                </div>
+                <div>
+                    Phone:
+                    <input type="phone" name="phone" placeholder="###-#######">
+                </div>
+            </div>
+            Gender:<br>
+            <input type="radio" name="gender"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            Farmer Address:<br>
+            <input type="text" name="address" placeholder="street address"><br>
+            <input type="text" name="address2" placeholder="street address2"><br>
+            <input type="text" name="city" placeholder="city">
+            <input type="text" name="region" placeholder="Region"><br>
+            <input type="text" name="zipcode" placeholder="Postot/Zip Code">
+            <select name="country" id="country" required>
+                <option value="">Select Your Country</option>
+                <option value="American Samoa">American Samoa</option>
+                <option value="Iceland">Iceland</option>
+                <option value="Japan">Japan</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Viet Nam">Viet Nam</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit" id="summit">
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>

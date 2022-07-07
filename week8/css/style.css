@@ -1,0 +1,25 @@
+form {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 255, 237);
+}
+
+input {
+    margin: 5px;
+}
+
+.box {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+#summit {
+    border-radius: 20px;
+    margin-left: 150px;
+    background-color: green;
+    color: white;
+}
