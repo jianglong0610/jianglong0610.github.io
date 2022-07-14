@@ -268,7 +268,11 @@ body {
   .container{
     width: 100%;
   }
-  
+
+  .box1{
+    width: 100%;
+  }
+
   .responsive {
     width: 100%;
     max-width: 95%;
