@@ -1,0 +1,20 @@
+.cool{
+    display: flex;
+    justify-content: center;
+    border: 15px solid coral;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    25% {border-color: #FFDDE2FF;}
+    50% {border-color: #FAA094FF;}
+    75% {border-color: #9ED9CCFF;}
+    100% {border-color: #008C76FF;}
+  }
+
+
+h1 {
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+}
