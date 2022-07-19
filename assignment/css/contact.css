@@ -70,7 +70,9 @@ body {
   }
 
   .container {
+    max-width: 1600px;
     background-color: #FDF0E9;
+    margin: auto;
     }
 
     .header{
