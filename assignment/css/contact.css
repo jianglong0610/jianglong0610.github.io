@@ -125,48 +125,99 @@ body {
         font-size: 24px;
         line-height: 5.0;
     }
+   .section3 {
+    background-color: #3E497A;
+}
 
-    form {
-        background-color: #FFDCC9 ;
-        padding: 70px;
-        margin: auto;
-        width: 800px;
-        display: flex;
-        justify-content: center;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    fieldset{
-        padding: 20px;
-        text-align: center;
-        width:800px ;
-    }
+legend{
+    text-align: center;
+}
 
-    .email{
-        font-size: 20px;
-        padding-top: 10px;
-        width: 100%;
-        height: 30px;
-    }
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
 
-    textarea{
-        font-size: 20px;
-        margin-top: 15px;
-        width: 100%;
-        height: 150px;
-    }
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
 
-    #cars{
-        font-size: 16px;
-        height: 50px;
-        margin-top: 20px;
-        width: 100%;
-    }
+[type=tel] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
 
-    #summit{
-        margin-top: 20px;
-        width: 20%;
-        height: 50px;
-    }
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #6ac06c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #d4d7f3;
+    color: black;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #FFDCC9 ;
+    width: 50%;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.d1 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.d2 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+label {
+    font-size: 20px;
+}
 
     .footer{
         padding: 10px;
@@ -205,8 +256,16 @@ body {
         }
 
         .form{
-            display: none;
+          width: 100%;
         }
+
+        .d1,
+        .d2,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+
 
         .contact{text-align: center;
             width: 100%;
@@ -227,6 +286,11 @@ body {
 
         .picture img{
             width: 150px;
+          }
+
+          .col-25, .col-75, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
           }
 
       }

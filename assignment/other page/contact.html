@@ -109,23 +109,50 @@
 
 
         </div>
-        <div class="form">
-            <form name="review" action="thankyou.html">
-                <fieldset>
-                    <legend>Reviews</legend>
-                    <input type="email" name="email" class="email" placeholder="Your Email" required>
-                    <select id="cars" name="cars">
-                        <option value="">请选择页面</option>
-                        <option value="介绍">介绍</option>
-                        <option value="实况特色">实况特色</option>
-                        <option value="音乐">音乐</option>
-                    </select>
-                    <textarea name="message" placeholder="意见"></textarea>
+        <div clas="section3">
+            <div class="form">
+                <legend>Review</legend>
+                <form action="thankyou.html">
+                    <div class="row">
+                        <div class="d1">
+                            <label for="email">电子邮件</label>
+                        </div>
+                        <div class="d2">
+                            <input type="email" id="email" name="email" placeholder="abc123@gmail.com" required>
+                        </div>
+                    </div>
 
-                    <input type="submit" value="Submit" id="summit">
-                </fieldset>
-            </form>
+                    <div class="row">
+                        <div class="d1">
+                            <label for="section">类别</label>
+                        </div>
+                        <div class="d2">
+                            <select id="cars" name="cars">
+                                <option value="">请选择页面</option>
+                                <option value="介绍">介绍</option>
+                                <option value="实况特色">实况特色</option>
+                                <option value="音乐">音乐</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="d1">
+                            <label for="message">意见</label>
+                        </div>
+                        <div class="d2">
+                            <textarea id="message" name="message" placeholder="意见"
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
         </div>
+
         <div class="footer">
             <div class="picture">
                 <img src="../image/channels4_profile.jpg" width="250px" >
