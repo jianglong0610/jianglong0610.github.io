@@ -1,0 +1,11 @@
+.carousel-item h2{
+    font-size: 30px;
+}
+
+.carousel-item p{
+    font-size: 20px;
+}
+
+.carousel-item{
+    background-image: url(../images/unknown.png);
+}

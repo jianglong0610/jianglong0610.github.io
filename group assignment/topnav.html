@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>topnav</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/3d2583d71e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="topnav">
+
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" width="100%">
+                </a>
+            </div>
+    
+            <div class="menu" id="mymenu">
+                <div class="bar">
+                <a href="#">Home</a>
+                <a href="#">AWARD</a>
+                <a href="#">CAREER</a>
+                <a href="#">SHOE</a>
+                <a href="#">AWARD</a>
+                </div>
+                <div class="contact">
+                <a href="#">Contact Us</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-basketball"></i>
+                  </a>
+            
+                 
+            </div>
+            
+    
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav(),myFunction">
+                    <i id="icon1" i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+        
+                <div class="overlay-content">
+                <a href="#">AWARD</a>
+                <a href="#">CAREER</a>
+                <a href="#">SHOE</a>
+                <a href="#">AWARD</a>
+                <a href="#">CONTACT US</a>
+                </div>
+            </div>
+    
+            <script>
+            function myFunction() {
+                var x = document.getElementById("mymenu");
+                if (x.className === "menu") {
+                    x.className += " responsive";
+                    document.getElementById("myNav").style.width = "100%";
+                } else {
+                    x.className = "menu";
+                }
+    
+    
+                var x = document.getElementById("icon");
+                if (x.className === "fa-solid fa-basketball") {
+                    x.className = "fa-solid fa-arrow-right-to-bracket";
+                } else {
+                    x.className = "fa-solid fa-basketball";
+                }
+            }
+    
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+    
+        </script>
+        </div>
+
+    </body>
+</html>
