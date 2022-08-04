@@ -1,0 +1,71 @@
+#bg-color{
+    background-image: linear-gradient(#FFFFFF, #5BBCBC);
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 a{
+    padding: 5px;
+}
+
+#button{
+    width: 10%;
+}
+
+#button :hover{
+    border: none;
+}
+
+#button1{
+    width: 10%;
+}
+
+#button1 :hover{
+    border: none;
+}
+
+#button2{
+    width: 10%;
+}
+
+#button2 :hover{
+    border: none;
+}
+
+#menu{
+    background: none;
+}
+
+#menu1{
+    background: none;
+}
+
+#menu2{
+    background: none;
+}
+
+
+@media screen and (max-width: 650px){
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .box2{
+        text-align: justify;
+    }
+
+    .box3{
+        text-align: justify;
+    }
+}
