@@ -234,11 +234,21 @@ body {
 
 .left{
   width: 40%;
+  height: 338px;
+  background-image: url(../image/majong.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 
 .right{
   width: 40%;
+  height: 338px;
+  background-image: url(../image/valorant1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .header2 h1{
@@ -358,6 +368,7 @@ body {
 
   .left{
     width: 100%;
+    margin-bottom: 50px;
   }
 
   .right{
